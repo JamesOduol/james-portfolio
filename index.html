@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Oduol - Electrical and Communication Engineer</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Configure Tailwind for Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#1e3a8a', // Dark Blue for headers/accents
+                        'secondary-gray': '#f3f4f6', // Light gray background
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom styles for better aesthetics */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .section-heading {
+            border-bottom: 2px solid #1e3a8a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .card {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header and Profile Section -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="bg-white rounded-xl shadow-lg p-6 mb-8 flex flex-col md:flex-row items-center">
+            <!-- Left Side: Photo and Contact Info -->
+            <div class="flex-shrink-0 mb-4 md:mb-0 md:mr-6 text-center">
+                <!-- NOTE: You must replace the image source below with the actual URL of your PASSPORT PHOTO.jpg after you upload it to your web host. For now, it's a placeholder. -->
+                <img src="https://placehold.co/150x150/1e3a8a/ffffff?text=Your+Photo" 
+                     alt="James Oduol Profile Photo Placeholder" 
+                     class="w-32 h-32 rounded-full object-cover mx-auto ring-4 ring-primary-blue mb-3">
+                
+                <h1 class="text-3xl font-bold text-gray-900">JAMES ODUOL</h1>
+                <p class="text-primary-blue font-medium mb-2">Electrical and Communication Engineer</p>
+
+                <div class="text-sm text-gray-600 space-y-1">
+                    <p class="flex items-center justify-center md:justify-start">
+                        <i data-lucide="mail" class="w-4 h-4 mr-2"></i>jamesoduol189@gmail.com
+                    </p>
+                    <p class="flex items-center justify-center md:justify-start">
+                        <i data-lucide="phone" class="w-4 h-4 mr-2"></i>+254 740 193 611
+                    </p>
+                    <p class="flex items-center justify-center md:justify-start">
+                        <i data-lucide="map-pin" class="w-4 h-4 mr-2"></i>Kakamega, Kenya
+                    </p>
+                </div>
+            </div>
+
+            <!-- Right Side: Profile Summary -->
+            <div class="flex-grow">
+                <h2 class="text-xl font-semibold text-primary-blue section-heading">PROFILE SUMMARY</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Highly motivated graduate Electrical and Communication Engineer with a **Second Class Honours (Upper Division)**. Possessing strong fundamentals in computer networks, wireless communication, and **power systems**. Proven ability to troubleshoot and maintain complex systems, demonstrated through industrial attachments at **Kenya Power** and **Chemelil Sugar Company**. Eager to apply technical and problem-solving skills in network and digital infrastructure roles.
+                </p>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="space-y-8">
+
+            <!-- Technical Skills Section -->
+            <section class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-xl font-semibold text-primary-blue section-heading">CORE TECHNICAL SKILLS</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-700">
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="plug" class="w-4 h-4 mr-2 text-green-600"></i>
+                        <span>Power Systems & Electronics</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="router" class="w-4 h-4 mr-2 text-indigo-600"></i>
+                        <span>Networking Fundamentals</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="cpu" class="w-4 h-4 mr-2 text-red-600"></i>
+                        <span>Industrial Control Systems</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="code" class="w-4 h-4 mr-2 text-yellow-600"></i>
+                        <span>MATLAB, C, C++, Java</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="tool" class="w-4 h-4 mr-2 text-purple-600"></i>
+                        <span>Troubleshooting & Diagnosis</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="phone" class="w-4 h-4 mr-2 text-pink-600"></i>
+                        <span>Wireless Communication</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="wrench" class="w-4 h-4 mr-2 text-teal-600"></i>
+                        <span>Machinery Maintenance</span>
+                    </div>
+                    <div class="flex items-center p-2 bg-secondary-gray rounded-lg">
+                        <i data-lucide="file-text" class="w-4 h-4 mr-2 text-gray-600"></i>
+                        <span>Report Generation & AI Tools</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-xl font-semibold text-primary-blue section-heading">PROFESSIONAL EXPERIENCE</h2>
+                
+                <!-- Experience 1: Chemelil Sugar Company -->
+                <div class="card p-4 mb-4 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-semibold text-gray-800">Attachee - Electrical Engineering</h3>
+                        <span class="text-sm text-gray-500 bg-secondary-gray px-2 py-0.5 rounded-full">May 2024 - July 2024</span>
+                    </div>
+                    <p class="text-primary-blue font-medium mb-2">CHEMELIL SUGAR COMPANY LIMITED (CSCL)</p>
+                    <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                        <li>Participated in **motor rewinding and repair**, developing practical skills in electrical machinery maintenance and fault diagnosis.</li>
+                        <li>Assisted with power correction capacitors and servicing generators, contributing to **efficient power system operation**.</li>
+                        <li>Gained experience in **industrial control systems** (chute level controls, contactors, intercarriers) and their maintenance.</li>
+                    </ul>
+                </div>
+
+                <!-- Experience 2: Kenya Power -->
+                <div class="card p-4 mb-4 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-semibold text-gray-800">Attachee - O&M, D&C Functions</h3>
+                        <span class="text-sm text-gray-500 bg-secondary-gray px-2 py-0.5 rounded-full">May 2022 - July 2022</span>
+                    </div>
+                    <p class="text-primary-blue font-medium mb-2">KENYA POWER AND LIGHTING COMPANY (KPLC)</p>
+                    <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                        <li>Involved in **meter installation** and **connection of power lines** for new customers.</li>
+                        <li>Exposure to **fault diagnosis** of power problems, transformer maintenance, and relay operation, enhancing system reliability knowledge.</li>
+                        <li>Gained understanding of **Design & Costing of Lines** and Call Centre operations.</li>
+                    </ul>
+                </div>
+                
+                <!-- Experience 3: SAVEMOD Earth Link (Intern) -->
+                <div class="card p-4 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-lg font-semibold text-gray-800">Intern - Curriculum Development</h3>
+                        <span class="text-sm text-gray-500 bg-secondary-gray px-2 py-0.5 rounded-full">SAVEMOD EARTH LINK</span>
+                    </div>
+                    <p class="text-primary-blue font-medium mb-2">Consultancy Service - Umma University</p>
+                    <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+                        <li>Contributed to the development of course outlines and distribution tables for the BSc in GIS & Geospatial Engineering.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-xl font-semibold text-primary-blue section-heading">EDUCATION</h2>
+                <div class="card p-4 border border-gray-200 rounded-lg">
+                    <div class="flex justify-between items-center mb-1">
+                        <h3 class="text-lg font-semibold text-gray-800">Bachelor's Degree in Electrical and Communication Engineering</h3>
+                        <span class="text-sm text-primary-blue font-medium">09/2019 - 12/2024</span>
+                    </div>
+                    <p class="text-gray-700">MASINDE MULIRO UNIVERSITY OF SCIENCE AND TECHNOLOGY, Kakamega</p>
+                    <p class="text-sm text-gray-600">**Second Class Honours (Upper Division)**</p>
+                </div>
+            </section>
+
+            <!-- Documents and Call to Action Section -->
+            <section class="bg-white rounded-xl shadow-lg p-6">
+                <h2 class="text-xl font-semibold text-primary-blue section-heading">DOWNLOADS & CONTACT</h2>
+                <div class="text-center space-y-4">
+                    <p class="text-gray-700">
+                        Please download my full documents for a detailed overview of my qualifications and experience.
+                    </p>
+                    <div class="flex flex-col md:flex-row justify-center space-y-3 md:space-y-0 md:space-x-4">
+                        <!-- NOTE: You must replace the # placeholders with the actual URLs of your uploaded files after deployment. -->
+                        <a href="#" class="inline-flex items-center justify-center bg-primary-blue hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+                            <i data-lucide="file-text" class="w-5 h-5 mr-2"></i> Download CV (PDF)
+                        </a>
+                        <a href="#" class="inline-flex items-center justify-center bg-gray-600 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+                            <i data-lucide="graduation-cap" class="w-5 h-5 mr-2"></i> View Academic Documents
+                        </a>
+                    </div>
+                    <p class="mt-6 text-sm text-gray-500">
+                        I am actively seeking opportunities, particularly in Networks & Digital Infrastructure. Let's connect!
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            &copy; 2025 James Oduol. Portfolio developed using Tailwind CSS.
+        </footer>
+    </div>
+    
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
